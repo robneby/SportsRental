@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SportsRental:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SportsRental</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SportsRental-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SportsRental:war exploded" />
+    </root>
+  </artifact>
+</component>
